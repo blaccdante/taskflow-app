@@ -42,7 +42,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
             const { user: currentUser } = await authService.getProfile();
             setUser(currentUser);
           } catch (error) {
-            // Token is invalid, clear storage
+            // Token is invalid or server not available, clear storage
+            console.log('Auth validation failed:', error);
             authService.logout();
           }
         }
