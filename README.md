@@ -2,6 +2,16 @@
 
 A beautiful, real-time task management application built with React, Node.js, and Socket.IO.
 
+## Screenshots
+
+### Login Interface
+![TaskFlow Login](screenshots/taskflow-login.png)
+*Clean and modern authentication interface with form validation*
+
+### Dashboard & Kanban Board
+![TaskFlow Dashboard](screenshots/taskflow-dashboard.png)
+*Comprehensive dashboard with stats cards and interactive Kanban board*
+
 ## Features
 
 - 🚀 **Real-time collaboration** - See changes instantly across all connected users
